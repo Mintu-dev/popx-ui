@@ -1,16 +1,52 @@
-# React + Vite
+PopX ReactJS Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
 
-Currently, two official plugins are available:
+This project is a pixel-perfect implementation of the provided PopX mobile application UI using ReactJS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features
 
-## React Compiler
+- Welcome Screen
+- Login Screen
+- Registration Screen
+- Profile Screen
+- React Router based navigation
+- User data stored using Local Storage
+- Mobile-first design
+- Pixel-perfect UI implementation based on the provided design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tech Stack
 
-## Expanding the ESLint configuration
+- ReactJS
+- React Router DOM
+- CSS3
+- Local Storage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Installation
+
+npm install
+npm run dev
+
+Design Implementation
+
+The application has been designed to closely match the provided UI mockups in terms of:
+
+- Colors
+- Typography
+- Spacing
+- Layout
+- Form styling
+- Mobile application experience
+
+The mobile interface is centered on the webpage to simulate a real mobile device view.
+
+Functionality
+
+1. User can create an account.
+2. Registration details are stored in Local Storage.
+3. User can log in using registered credentials.
+4. Profile page displays stored user information.
+
+Author
+
+Mintu

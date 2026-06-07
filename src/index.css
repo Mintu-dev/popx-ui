@@ -19,7 +19,7 @@ body {
 
 .container {
   width: 375px;
-  min-height: 812px;
+  min-height: 100vh;
   background: #f7f8f9;
   border: 1px solid #e5e5e5;
   margin: 20px auto;
